@@ -1,21 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kailas Sadashiv Mali | Portfolio</title>
-<meta name="description" content="Portfolio of Kailas Sadashiv Mali, B.Tech Computer Technology student and aspiring Full-Stack Developer.">
-<style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;background:#07111f;color:#eef5ff;line-height:1.7}a{color:inherit;text-decoration:none}.nav{position:sticky;top:0;z-index:10;background:rgba(7,17,31,.9);backdrop-filter:blur(12px);border-bottom:1px solid #1e3148}.navin{max-width:1100px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}.logo{font-size:22px;font-weight:800}.logo span{color:#5eead4}.links{display:flex;gap:25px;color:#a9b8ca;font-size:14px}.links a:hover{color:#5eead4}.hero,.section{max-width:1100px;margin:auto;padding:90px 24px}.hero{min-height:calc(100vh - 70px);display:grid;grid-template-columns:1.3fr .7fr;align-items:center;gap:50px}.eyebrow{color:#5eead4;font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(45px,7vw,78px);line-height:1.05;margin:15px 0}.hero h1 span{color:#5eead4}.hero h2{font-size:24px;color:#d4dfec}.muted{color:#9aa9bd;max-width:650px}.buttons{display:flex;gap:14px;margin:28px 0}.btn{padding:12px 20px;border-radius:9px;font-weight:700;border:1px solid #28405a}.primary{background:#5eead4;color:#06201d;border:0}.card{background:#0d1a2d;border:1px solid #1e3148;border-radius:16px;padding:28px}.avatar{width:190px;height:190px;border-radius:50%;margin:auto;display:grid;place-items:center;font-size:58px;font-weight:800;background:linear-gradient(135deg,#123f48,#17335b);border:2px solid #5eead4;color:#5eead4}.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.project h3{font-size:23px;margin-bottom:5px}.tag{display:inline-block;padding:5px 10px;border:1px solid #28405a;border-radius:99px;margin:5px 5px 0 0;font-size:12px;color:#cbd8e7}.section h2{font-size:42px;margin:0 0 15px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact a{color:#5eead4}footer{text-align:center;border-top:1px solid #1e3148;padding:25px;color:#8191a5}@media(max-width:750px){.links{display:none}.hero,.grid,.projects,.contact{grid-template-columns:1fr}.hero{padding-top:60px}.section h2{font-size:34px}}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kailash Mali | Computer Technology Student</title>
+  <meta name="description" content="Portfolio of Kailash Sadashiv Mali — B.Tech Computer Technology student and aspiring Full-Stack Developer.">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+:root{--bg:#07111f;--panel:#0d1a2d;--text:#eef5ff;--muted:#9aa9bd;--accent:#5eead4;--accent2:#60a5fa;--border:rgba(255,255,255,.1);--max:1120px}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 10%,rgba(96,165,250,.13),transparent 30%),var(--bg);color:var(--text);font-family:Inter,sans-serif;line-height:1.7}a{color:inherit;text-decoration:none}.navbar{height:74px;display:flex;align-items:center;justify-content:space-between;max-width:var(--max);margin:auto;padding:0 24px;position:sticky;top:0;z-index:10;background:rgba(7,17,31,.82);backdrop-filter:blur(14px)}.logo{font:700 25px "Space Grotesk";letter-spacing:-2px}.logo span{color:var(--accent)}nav{display:flex;gap:28px}nav a{color:var(--muted);font-size:14px;font-weight:600}nav a:hover{color:var(--accent)}.menu{display:none;background:none;border:0;color:white;font-size:25px}.hero,.section{max-width:var(--max);margin:auto;padding:100px 24px}.hero{min-height:calc(100vh - 74px);display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:70px}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}.hero h1{font:700 clamp(42px,6vw,72px)/1.05 "Space Grotesk";margin:16px 0}.hero h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;color:transparent}.hero h2{font-size:23px;color:#d5e2f4;margin:0 0 18px}.intro{max-width:650px;color:var(--muted);font-size:17px}.buttons{display:flex;gap:14px;margin:28px 0}.btn{padding:12px 21px;border-radius:9px;font-weight:700;font-size:14px}.primary{background:var(--accent);color:#06201d}.secondary{border:1px solid var(--border)}.socials{display:flex;gap:22px;color:var(--muted);font-size:14px}.hero-card{display:flex;flex-direction:column;align-items:center;gap:24px}.avatar{width:190px;height:190px;border-radius:50%;display:grid;place-items:center;font:700 58px "Space Grotesk";background:linear-gradient(135deg,rgba(94,234,212,.18),rgba(96,165,250,.2));border:1px solid rgba(94,234,212,.3);box-shadow:0 0 80px rgba(94,234,212,.08)}.code-window{width:100%;background:#081525;border:1px solid var(--border);border-radius:14px;padding:17px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.dots{display:flex;gap:6px}.dots i{width:8px;height:8px;border-radius:50%;background:#64748b}.code-window pre{overflow:auto;color:#a8d8ff;font:13px/1.8 monospace}.section{padding-top:80px}.section-head{max-width:720px;margin-bottom:42px}.section-head h2{font:700 clamp(30px,4vw,46px)/1.1 "Space Grotesk";margin:8px 0 12px}.section-head>p:last-child{color:var(--muted)}.alt{max-width:none;background:rgba(255,255,255,.025);padding-left:max(24px,calc((100vw - var(--max))/2 + 24px));padding-right:max(24px,calc((100vw - var(--max))/2 + 24px))}.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:25px}.card,.fact,.project,.contact-box{border:1px solid var(--border);background:rgba(13,26,45,.72);border-radius:14px}.card{padding:30px}.card p{color:var(--muted)}.facts{display:grid;gap:12px}.fact{padding:18px 20px;display:flex;flex-direction:column}.fact strong{font-size:12px;color:var(--accent);text-transform:uppercase;letter-spacing:1px}.fact span{color:#d9e3ef}.skills{display:flex;flex-wrap:wrap;gap:12px}.skills span,.tags span{padding:9px 13px;border:1px solid var(--border);border-radius:999px;color:#d9e3ef;background:rgba(255,255,255,.025);font-size:13px}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project{padding:27px;min-height:310px;display:flex;flex-direction:column}.project-number{color:var(--accent);font:700 13px monospace}.project h3{font:700 24px "Space Grotesk";margin:18px 0 8px}.project p{color:var(--muted);font-size:14px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto;margin-bottom:18px}.tags span{padding:5px 9px;font-size:11px}.project a{color:var(--accent);font-size:13px;font-weight:700}.contact{padding-bottom:110px}.contact-box{display:grid;grid-template-columns:1fr 1fr;overflow:hidden}.contact-box a{padding:25px;border-right:1px solid var(--border)}.contact-box a:last-child{border-right:0}.contact-box span{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:1px}.contact-box strong{display:block;margin-top:5px}footer{border-top:1px solid var(--border);padding:25px;text-align:center;color:var(--muted);font-size:12px}
+@media(max-width:760px){nav{display:none;position:absolute;top:74px;left:0;right:0;padding:18px 24px;background:#07111f;border-bottom:1px solid var(--border);flex-direction:column;gap:16px}.navbar nav.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;padding-top:70px;text-align:center}.hero .intro{margin:auto}.buttons,.socials{justify-content:center}.hero-card{order:-1}.avatar{width:140px;height:140px;font-size:42px}.about-grid,.project-grid,.contact-box{grid-template-columns:1fr}.contact-box a{border-right:0;border-bottom:1px solid var(--border)}.contact-box a:last-child{border-bottom:0}.section{padding-top:70px}}
+
+/* Perspective stage and restrained depth effects */
+body{background:radial-gradient(ellipse at 78% 12%,rgba(48,111,183,.19),transparent 34%),radial-gradient(ellipse at 8% 45%,rgba(36,149,140,.08),transparent 36%),#07111f}
+.navbar{max-width:none;padding-inline:max(24px,calc((100vw - var(--max))/2 + 24px));border-bottom:1px solid rgba(255,255,255,.07)}
+.hero{perspective:1200px}.hero-card{position:relative;isolation:isolate;min-height:430px;justify-content:center;transform-style:preserve-3d;transform:rotateX(var(--rx,-4deg)) rotateY(var(--ry,-12deg));transition:transform .35s ease;will-change:transform}
+.hero-card:before{content:"";position:absolute;inset:50px 16px 20px;background:linear-gradient(140deg,rgba(34,93,137,.35),rgba(12,32,53,.86));border:1px solid rgba(117,206,209,.24);border-radius:24px;box-shadow:25px 35px 65px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.15);transform:translateZ(-45px) rotate(-4deg);z-index:-1}
+.hero-card .avatar{position:relative;transform:translateZ(95px);box-shadow:16px 22px 50px rgba(0,0,0,.45),inset 0 2px rgba(255,255,255,.18);background:linear-gradient(140deg,#173d54,#0e2538 60%,#104e54);border:2px solid rgba(94,234,212,.48);text-shadow:0 4px 18px rgba(0,0,0,.45)}
+.hero-card .code-window{position:relative;max-width:400px;transform:translateZ(62px) rotate(-2deg);box-shadow:18px 28px 60px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.14);background:linear-gradient(140deg,#10283d,#091626)}
+.orbit{position:absolute;border:1px solid rgba(94,234,212,.28);border-radius:50%;pointer-events:none;transform-style:preserve-3d}.orbit-one{width:310px;height:150px;top:52px;transform:rotate(-22deg) translateZ(15px)}.orbit-two{width:260px;height:115px;top:70px;transform:rotate(32deg) translateZ(5px);border-color:rgba(96,165,250,.25)}
+.floating-label{position:absolute;z-index:2;padding:7px 11px;border:1px solid rgba(94,234,212,.3);border-radius:6px;background:#102c3d;color:#aef4e9;font:700 10px/1.2 monospace;letter-spacing:.07em;box-shadow:8px 12px 20px rgba(0,0,0,.3)}.label-one{top:75px;right:-12px;transform:translateZ(130px) rotate(5deg)}.label-two{bottom:100px;left:-20px;transform:translateZ(110px) rotate(-5deg)}
+.project-grid{perspective:1100px}.project{transform:perspective(1000px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--lift,0px));transform-style:preserve-3d;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;box-shadow:8px 14px 30px rgba(0,0,0,.15)}.project:hover,.project:focus-within{--lift:-6px;border-color:rgba(94,234,212,.35);box-shadow:14px 26px 42px rgba(0,0,0,.28)}.project>*{transform:translateZ(18px)}.project h3{transform:translateZ(30px)}
+.btn,.contact-box a{transition:transform .2s ease,background .2s ease}.btn:hover,.contact-box a:hover{transform:translateY(-3px)}:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+@media(max-width:760px){.hero{gap:18px}.hero-card{min-height:370px;order:0;transform:none}.hero-card:before{inset:40px 14px 12px}.hero-card .code-window{max-width:min(100%,350px)}.floating-label{font-size:9px}.label-one{right:2px}.label-two{left:2px}.project{transform:none!important}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}.hero-card,.project{transform:none!important}}
+
+.hero-card .avatar{overflow:hidden;background:#122c3a}.hero-card .avatar img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 28%}
 </style>
 </head>
 <body>
-<header class="nav"><div class="navin"><div class="logo">Kailas<span>.</span></div><nav class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></div></header>
-<main>
-<section class="hero"><div><div class="eyebrow">B.Tech Computer Technology</div><h1>Hi, I'm <span>Kailas Mali</span></h1><h2>Aspiring Full-Stack Developer</h2><p class="muted">Computer Technology student at Ahinsa Institute of Technology, Dondaicha. I enjoy building practical web projects and learning modern development technologies.</p><div class="buttons"><a class="btn primary" href="#projects">View My Projects</a><a class="btn" href="https://github.com/KailasMali77" target="_blank">GitHub Profile</a></div></div><div class="card"><div class="avatar">KM</div><p style="text-align:center;color:#9aa9bd">Computer Technology • Full-Stack Development</p></div></section>
-<section id="about" class="section"><h2>About Me</h2><p class="muted">I am a B.Tech Computer Technology student focused on programming, web development, databases and software development. My goal is to become a Full-Stack Developer and build useful, user-friendly applications.</p><div class="grid"><div class="card"><h3>Education</h3><p class="muted"><b>Ahinsa Institute of Technology, Dondaicha</b><br>B.Tech in Computer Technology<br>Currently pursuing</p></div><div class="card"><h3>Focus</h3><p class="muted">HTML • CSS • JavaScript • Python • Node.js • MySQL • DBMS</p></div></div></section>
-<section id="skills" class="section"><h2>Skills</h2><div class="card"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">Node.js</span><span class="tag">MySQL</span><span class="tag">DBMS</span><span class="tag">Git & GitHub</span></div></section>
-<section id="projects" class="section"><h2>Projects</h2><div class="projects"><article class="card project"><small style="color:#5eead4">01</small><h3>Personal Portfolio</h3><p class="muted">Responsive personal portfolio website showcasing my education, skills, projects and contact information.</p><div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article><article class="card project"><small style="color:#5eead4">02</small><h3>E-Grampanchayat</h3><p class="muted">A web-based project concept focused on providing digital access to Gram Panchayat information and services.</p><div><span class="tag">Web Development</span><span class="tag">Database</span></div></article></div></section>
-<section id="contact" class="section"><h2>Let's Connect</h2><div class="contact"><div class="card"><p class="muted">Email</p><a href="mailto:kailasmali237@gmail.com">kailasmali237@gmail.com</a></div><div class="card"><p class="muted">GitHub</p><a href="https://github.com/KailasMali77" target="_blank">github.com/KailasMali77</a></div></div></section>
-</main><footer>© 2026 Kailas Sadashiv Mali • Portfolio</footer>
-</body></html>
+  <header class="navbar">
+    <a class="logo" href="#home">K<span>K</span></a>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">B.Tech Computer Technology Student</p>
+        <h1>Hi, I'm <span>Kailash Mali</span></h1>
+        <h2>Aspiring Full-Stack Developer</h2>
+        <p class="intro">I build practical web applications with Java, Spring Boot, JavaScript, and MySQL. I care about clear interfaces and reliable backend systems.</p>
+        <div class="buttons"><a class="btn primary" href="#projects">View Projects</a><a class="btn secondary" href="#contact">Contact Me</a></div>
+        <div class="socials"><a href="https://github.com/KailashMali77" target="_blank" rel="noopener">GitHub ↗</a><a href="mailto:kailasmali237@gmail.com">Email ↗</a></div>
+      </div>
+      <div class="hero-card tilt" aria-label="Developer profile illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-label label-one">JAVA / SPRING BOOT</div><div class="floating-label label-two">API + DATABASE</div>
+        <div class="avatar"><img src="https://avatars.githubusercontent.com/u/216721678?v=4" alt="Portrait of Kailash Mali"></div>
+        <div class="code-window"><div class="dots"><i></i><i></i><i></i></div><pre><code>&lt;developer&gt;
+  name: "Kailash Mali"
+  branch: "Computer Technology"
+  goal: "Full-Stack Developer"
+  status: "Building for the web"
+&lt;/developer&gt;</code></pre></div>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <div class="section-head"><p class="eyebrow">About Me</p><h2>Building skills, one project at a time.</h2></div>
+      <div class="about-grid">
+        <div class="card"><h3>Who I Am</h3><p>I am a B.Tech Computer Technology student at Ahinsa Institute of Technology, Dondaicha. I like coding, web development, and creating projects that solve real-world problems.</p><p>I worked as a Java Full Stack Developer at Boraste Technologies from January to June 2026, building applications and integrating REST APIs.</p></div>
+        <div class="facts"><div class="fact"><strong>Degree</strong><span>B.Tech Computer Technology</span></div><div class="fact"><strong>College</strong><span>Ahinsa Institute of Technology</span></div><div class="fact"><strong>Location</strong><span>Malpur, Dhule, Maharashtra</span></div><div class="fact"><strong>Career Goal</strong><span>Full-Stack Developer</span></div></div>
+      </div>
+    </section>
+    <section id="skills" class="section alt"><div class="section-head"><p class="eyebrow">My Skills</p><h2>Technologies I use.</h2></div><div class="skills"><span>Java</span><span>Spring Boot</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>SQL</span><span>MySQL</span><span>REST APIs</span><span>OOP</span><span>Data Structures</span></div></section>
+    <section id="projects" class="section"><div class="section-head"><p class="eyebrow">Projects</p><h2>Things I've built.</h2></div><div class="project-grid">
+      <article class="project tilt"><div class="project-number">01</div><h3>Personal Portfolio</h3><p>A responsive personal portfolio website to showcase my profile, technical skills, projects, and contact information.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="mailto:kailasmali237@gmail.com?subject=Project%20details%20request">Request details →</a></article>
+      <article class="project tilt"><div class="project-number">02</div><h3>E-Grampanchayat</h3><p>A web application for village administration with authentication, request management, public notices, and application tracking.</p><div class="tags"><span>Web application</span><span>Database</span><span>Authentication</span></div><a href="mailto:kailasmali237@gmail.com?subject=Project%20details%20request">Request details →</a></article>
+    </div></section>
+    <section id="contact" class="section contact"><div class="section-head"><p class="eyebrow">Contact</p><h2>Let's build something together.</h2><p>If you'd like to connect, collaborate, or discuss a project, feel free to reach out.</p></div><div class="contact-box"><a href="mailto:kailasmali237@gmail.com"><span>Email</span><strong>kailasmali237@gmail.com</strong></a><a href="https://github.com/KailashMali77" target="_blank" rel="noopener"><span>GitHub</span><strong>@KailashMali77 ↗</strong></a></div></section>
+  </main>
+  <footer><p>© 2026 Kailash Sadashiv Mali. Built with HTML, CSS & JavaScript.</p></footer>
+  <script>
+const btn=document.getElementById('menuBtn'),nav=document.getElementById('nav');
+btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));btn.setAttribute('aria-label',open?'Close menu':'Open menu')});
+document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label','Open menu')}));
+if(matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches){document.querySelectorAll('.tilt').forEach(el=>{el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect(),x=((e.clientX-r.left)/r.width-.5)*2,y=((e.clientY-r.top)/r.height-.5)*2;el.style.setProperty('--ry',`${x*(el.classList.contains('hero-card')?15:6)}deg`);el.style.setProperty('--rx',`${-y*(el.classList.contains('hero-card')?9:5)}deg`)});el.addEventListener('pointerleave',()=>{el.style.removeProperty('--ry');el.style.removeProperty('--rx')})})}
+</script>
+</body>
+</html>
